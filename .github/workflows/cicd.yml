@@ -25,9 +25,10 @@ jobs:
 
     steps:
       - name: Deploy to Netlify
-        uses: netlify/actions/deploy-to-netlify@v3
+        uses: netlify/actions/deploy-to-netlify
         with:
           publish-dir: .dist/
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          VITE_OPENAI_API_KEY: ${{ secrets.VITE_OPENAI_API_KEY }}
+          VITE_TINY_API_KEY: ${{ secrets.VITE_TINY_API_KEY }}
