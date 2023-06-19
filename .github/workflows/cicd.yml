@@ -25,8 +25,9 @@ jobs:
 
     steps:
       - name: Deploy to Netlify
-        uses: netlify/actions/cli@v1
+        uses: netlify/actions/deploy-to-netlify@v3
         with:
-          args: deploy --prod
+          publish-dir: .dist/
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
