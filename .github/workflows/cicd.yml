@@ -27,6 +27,6 @@ jobs:
       - name: Deploy to Netlify
         uses: netlify/actions/cli@v1
         with:
-          args: deploy --prod --dir=dist
+          args: deploy --prod
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
