@@ -6,7 +6,7 @@ This App supports Undo (ctrl + z ) and redo (ctrl + y) fucntions in the editor o
 This App uses TinyMCE editor in the input Field. YOu need to generate an API for the TInyMCE Rich Text editor and openAI api to work this app in your machine.   
 
 ![Home Page](https://github.com/bishalkar10/Blog-Generator/assets/112653391/a6d22b9b-ae80-4a57-af6c-dfce407b9b98)
- ![Editor Page](https://github.com/bishalkar10/Blog-Generator/assets/112653391/21f2d51c-909c-468e-9697-dea05f6682a5)
+![Editor Page](https://github.com/bishalkar10/Blog-Generator/assets/112653391/21f2d51c-909c-468e-9697-dea05f6682a5)
 ![Add New Toppic](https://github.com/bishalkar10/Blog-Generator/assets/112653391/1f199bd2-e368-4614-a869-0d9faf4ab0df)
 ![sample](https://github.com/bishalkar10/Blog-Generator/assets/112653391/844cda12-ab08-42b8-a86c-454b580de75e)
 ![Prompt Error](https://github.com/bishalkar10/Blog-Generator/assets/112653391/419e0794-2088-49ca-bcb6-b10d66565fc9)
@@ -17,7 +17,7 @@ This App uses TinyMCE editor in the input Field. YOu need to generate an API for
 -This web application is not optimized for small tablets and mobiles.
 -I have used environment variable to hide the API token in the code. 
 
-#Installation :    
+# Installation :    
 Visit the repo and then :
 
 1. Click on the fork button. This will create a copy the of this repo on your account.
