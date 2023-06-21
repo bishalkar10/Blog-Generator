@@ -17,7 +17,7 @@ This App uses TinyMCE editor in the input Field. YOu need to generate an API for
 -This web application is not optimized for small tablets and mobiles.
 -I have used environment variable to hide the API token in the code. 
 
-#Installation :
+#Installation :    
 Visit the repo and then :
 
 1. Click on the fork button. This will create a copy the of this repo on your account.
