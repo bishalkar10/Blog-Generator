@@ -20,7 +20,7 @@ This App uses TinyMCE editor in the input Field. YOu need to generate an API for
 # Installation :    
 Visit the repo and then :
 
-1. Click on the fork button. This will create a copy the of this repo on your account.
+1. Click on the fork button. This will create a copy of this repo on your account.
 2. Click on the green color code button in your repo.
 3. Click on the clipboard button to copy.
 4. Open your VS Code Editor or IDE whatever you have.
