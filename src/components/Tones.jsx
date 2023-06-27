@@ -13,7 +13,7 @@ export default function Tones({ tonesArray, selectedTone, setSelectedTone }) {
       : "";
     return (
       <li
-        className={`p-2 px-3 rounded  ${outlineClasses} text-white ${
+        className={`p-2 px-3 rounded grid place-content-center  ${outlineClasses} text-white ${
           colorClasses[index % colorClasses.length]
         }`}
         key={tone}
@@ -25,5 +25,5 @@ export default function Tones({ tonesArray, selectedTone, setSelectedTone }) {
     );
   });
 
-  return <ul className="pt-5 flex gap-10 justify-center">{tonesList}</ul>;
+  return <ul className="grid items-center justify-center grid-cols-[repeat(2,120px)] sm:flex gap-x-10 gap-y-5 px-2 pt-5">{tonesList}</ul>;
 }
