@@ -34,7 +34,7 @@ export function DeleteButton({handleDelete}) {
 
 export function WriteDeleteButton({ isHovered, topic, keywords, handleDelete }) {
   return (
-    <div className="absolute flex items-center gap-3 transform -translate-y-1/2 top-1/2 right-4 ">
+    <div className="absolute right-0 flex items-center h-full gap-2 p-2 transform -translate-y-1/2 bg-white top-1/2 ">
       {isHovered && <DeleteButton handleDelete={handleDelete}/>}
       <WriteButton topic={topic} keywords={keywords} />
     </div>
@@ -47,7 +47,7 @@ export function AddTopicButton({ showForm, setShowForm }) {
   }
   return (
     <button
-      className="flex items-center p-2 px-3 text-white rounded bg-primary-color hover:bg-[rgb(235,79,37)] whitespace-nowrap"
+      className="flex right-0 top-1/2 transform  items-center p-2 px-3 text-white rounded bg-primary-color hover:bg-[rgb(235,79,37)] whitespace-nowrap"
       onClick={handleClick}
       disabled={showForm}
     >
