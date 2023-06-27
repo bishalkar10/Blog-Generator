@@ -10,7 +10,7 @@ export default function TopicCategories({
   const categories = ["All", "Custom", "ICP", "Mission", "Product"].map(
     (category, index) => (
       <li
-        className={`relative inline-block w-24 text-center categories ${
+        className={`relative flex-shrink-0 inline-block min-w-[80px]  text-center categories ${
           category === activeCategory ? "active" : "" // Apply "active" class to the active category
         }`}
         key={index}
@@ -24,8 +24,8 @@ export default function TopicCategories({
   return (
     <div>
       <h2 >Categories</h2>
-      <div className="flex justify-between pl-10 my-5">
-        <ul className="flex items-center">{categories}</ul>
+      <div className="relative flex justify-between w-full my-5 sm:pl-4 md:pl-10">
+        <ul className="flex items-center w-full overflow-x-auto hide-scrollbar">{categories}</ul>
         <AddTopicButton showForm={showForm} setShowForm={setShowForm} />
       </div>
     </div>
