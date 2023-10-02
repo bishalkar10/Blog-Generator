@@ -3,16 +3,15 @@ import { AddTopicButton } from "./Buttons";
 
 export default function TopicCategories({
   activeCategory,
-  setActiveCategory, 
+  setActiveCategory,
   showForm,
   setShowForm,
 }) {
   const categories = ["All", "Custom", "ICP", "Mission", "Product"].map(
     (category, index) => (
       <li
-        className={`relative flex-shrink-0 inline-block min-w-[80px]  text-center categories ${
-          category === activeCategory ? "active" : "" // Apply "active" class to the active category
-        }`}
+        className={`relative flex-shrink-0 inline-block min-w-[80px]  text-center categories ${category === activeCategory ? "active" : "" // Apply "active" class to the active category
+          }`}
         key={index}
         onClick={() => setActiveCategory(category)} // Update the active category on click
       >
